@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Leetvision",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "AI analysis of your LeetCode submissions, saved for spaced-repetition revision on your Leetvision dashboard.",
   "homepage_url": "https://www.leetvision.tech",
   "icons": {
