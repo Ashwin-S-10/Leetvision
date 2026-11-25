@@ -1,5 +1,5 @@
 // acts as a backend for extension
-importScripts('config.js');
+if (typeof importScripts === 'function') importScripts('config.js');
 
 async function callBackend({ path, method = 'POST', token, body }) {
   const headers = { 'Content-Type': 'application/json' };

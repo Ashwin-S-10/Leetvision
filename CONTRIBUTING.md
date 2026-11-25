@@ -12,7 +12,7 @@ Please do not post your access tokens, passwords or API keys in issues or screen
 
 ## Security issues
 
-Do not open a public issue for a security problem. Contact the maintainers privately through the [Leetvision website](https://leetvision.in) and give them time to fix it before you share details.
+Do not open a public issue for a security problem. Contact the maintainers privately through the [Leetvision website](https://www.leetvision.tech) and give them time to fix it before you share details.
 
 ## Development setup
 
@@ -23,7 +23,7 @@ The extension is plain JavaScript on Manifest V3. There is no build step, bundle
    git clone https://github.com/<your-username>/Leetvision_extension.git
    ```
 2. Open `chrome://extensions`, turn on **Developer mode**, click **Load unpacked** and choose the cloned folder.
-3. Create a Leetvision account at [leetvision.in](https://leetvision.in) and sign in from the popup.
+3. Create a Leetvision account at [leetvision.tech](https://www.leetvision.tech) and sign in from the popup.
 4. Open a LeetCode problem and submit a solution to try your changes.
 
 ### Reloading after a change

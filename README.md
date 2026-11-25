@@ -18,9 +18,9 @@ Submit a solution, get an instant analysis, and revise it later on a schedule.
 [![Status](https://img.shields.io/badge/status-public%20beta-fbbf24?style=for-the-badge)](../../issues)
 [![Manifest](https://img.shields.io/badge/Manifest-V3-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](#how-it-works)
 [![Dependencies](https://img.shields.io/badge/dependencies-0-22c55e?style=for-the-badge)](#how-it-works)
-[![Website](https://img.shields.io/badge/website-leetvision.in-111111?style=for-the-badge)](https://leetvision.in)
+[![Website](https://img.shields.io/badge/website-leetvision.tech-111111?style=for-the-badge)](https://www.leetvision.tech)
 
-[**Website**](https://leetvision.in) · [**Install**](#install) · [**Getting started**](#getting-started) · [**Report a bug**](../../issues)
+[**Website**](https://www.leetvision.tech) · [**Install**](#install) · [**Getting started**](#getting-started) · [**Report a bug**](../../issues)
 
 </div>
 
@@ -33,7 +33,7 @@ Submit a solution, get an instant analysis, and revise it later on a schedule.
 
 Most people solve a LeetCode problem once and forget the approach a week later. Leetvision fixes that.
 
-The extension watches your submissions, **Schedules** the problems you solve for revision based on **approach and attempts taken to solve**. Every attempt is saved to your account on [leetvision.in](https://leetvision.in), so you can come back and revise the approaches you used.
+The extension watches your submissions, **Schedules** the problems you solve for revision based on **approach and attempts taken to solve**. Every attempt is saved to your account on [leetvision.tech](https://www.leetvision.tech), so you can come back and revise the approaches you used.
 
 ## Screenshots
 
@@ -65,7 +65,7 @@ The extension watches your submissions, **Schedules** the problems you solve for
 | **Revision system** | Every submission is saved and scheduled for review **smartly, based on your approach and number of attempts**, with progress tracking per problem. |
 | **Performance trends** | Top gains and declines by topic, by day or by week. |
 | **Revision streak** | A daily streak and time estimate to keep you consistent. |
-| **Bring your own key** | Out of free analyses? Add your own Gemini API key in [Settings](https://leetvision.in/settings). |
+| **Bring your own key** | Out of free analyses? Add your own Gemini API key in [Settings](https://www.leetvision.tech/settings). |
 | **Privacy first** | Runs only on `leetcode.com` and sends data only when you click **Submit**. |
 
 ## What happens when you click Submit
@@ -77,7 +77,7 @@ flowchart LR
     C --> D[Send to Leetvision API]
     D --> E[Analysis panel on page]
     D --> F[Mistakes and Approaches Sceduled for Revision in future]
-    F --> G[Visit leetvision.in for Daily Revision]
+    F --> G[Visit leetvision.tech for Daily Revision]
 ```
 
 The extension sends the **code**, **language**, **problem slug** and **verdict**. Nothing else.
@@ -111,14 +111,14 @@ Pull or re-download the code, click the reload icon on the Leetvision card in `c
 
 ## Getting started
 
-1. Create an account at [leetvision.in](https://leetvision.in), or click **Sign Up** in the extension popup.
+1. Create an account at [leetvision.tech](https://www.leetvision.tech), or click **Sign Up** in the extension popup.
 2. Click the Leetvision icon and sign in with the same email and password.
 3. Open any problem on [leetcode.com](https://leetcode.com), write a solution and click **Submit**.
 4. The analysis panel appears once LeetCode returns a verdict.
 
 ### Free analyses and your own Gemini key
 
-Each account gets a limited number of free analyses per day. When you run out, the extension tells you. You can keep going by adding your own Google Gemini API key in [Settings](https://leetvision.in/settings).
+Each account gets a limited number of free analyses per day. When you run out, the extension tells you. You can keep going by adding your own Google Gemini API key in [Settings](https://www.leetvision.tech/settings).
 
 ## Privacy
 
@@ -136,8 +136,8 @@ It does not read other sites, your browsing history or your clipboard. Sign-in t
 | Permission | Why it is needed |
 |---|---|
 | `storage` | Keeps you signed in between browser sessions. |
-| `activeTab` | Lets the popup interact with the tab you are on. |
 | `https://leetcode.com/*` | Reads your code and the submission verdict on LeetCode. |
+| `https://api-leetvision.onrender.com/*` | Sends your submission to the Leetvision API for analysis. |
 
 ## How it works
 
