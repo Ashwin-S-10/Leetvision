@@ -1,4 +1,4 @@
 const CONFIG = {
   BACKEND_URL: 'https://api-leetvision.onrender.com',
-  WEBSITE_URL: 'https://leetvision.in'
+  WEBSITE_URL: 'https://www.leetvision.tech'
 };

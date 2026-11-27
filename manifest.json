@@ -1,17 +1,16 @@
 {
   "manifest_version": 3,
   "name": "Leetvision",
-  "version": "1.0",
-  "description": "Analyzes LeetCode code submissions and stores results.",
-  "homepage_url": "https://leetvision.in",
+  "version": "1.0.2",
+  "description": "AI analysis of your LeetCode submissions, saved for spaced-repetition revision on your Leetvision dashboard.",
+  "homepage_url": "https://www.leetvision.tech",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
   "permissions": [
-    "storage",
-    "activeTab"
+    "storage"
   ],
   "host_permissions": [
     "https://leetcode.com/*",
@@ -22,7 +21,7 @@
   },
   "action": {
     "default_popup": "popup.html",
-    "default_title": "LeetCode Agent"
+    "default_title": "Leetvision"
   },
   "content_scripts": [
     {
